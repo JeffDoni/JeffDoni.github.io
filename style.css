@@ -1,0 +1,39 @@
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(180, 155, 155);
+    padding: 3%;
+    
+}
+
+.descrição {
+    font-family: fantasy;
+    color: red;
+    position: absolute;
+    top: 36%;
+    right: 10%;
+    left:20% ;
+    
+}
+
+.lista {
+    font-size: 20px;
+}
+
+
+#foto {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: rgb(107, 82, 82);
+}
+.image-container {
+    height: 300px;
+    position: relative;
+}
+ul li:nth-child(odd) {
+    background-color: aqua;
+}
