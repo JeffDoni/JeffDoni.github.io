@@ -6,42 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Web</title>
-    <style>
-        h1 {
-            font-size: 35px;
-            text-align: center;
-        }
-
-        body {
-            background-color: rgb(180, 155, 155);
-            text-align: center;
-        }
-
-        .lista {
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1><a href="#foto">Jefferson Donizete do Nascimento<a /></h1>
-    <img src="portfólio.jpeg" id="foto" alt="Minha foto" width="150px">
-    <p><em>Olá! Sou o Jefferson, seja bem-vindo(a) ao meu portfólio. </em></p>
+
+    <div>
+        <h1><a href="#foto">Jefferson Donizete do Nascimento<a /></h1>
+    </div>
+
+    <div class="image-container">
+        <img src="portfólio.jpeg" id="foto" alt="Minha foto" width="150px">
+        <p class="descrição">Tenho 26 anos, sou nascido e criado em Barbacena/MG, curso a faculdade de Economia na UFSJ e iniciei meus estudos na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> e estou no caminho para serum DEV de sucesso.
+    </div>
     <br>
     <br>
-    <ul>
-        <li><a href="#apresentação">Quem sou eu?</a></li>
-        <li><a href="#habilidades">Minhas Habilidades</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-    </ul>
-    <br>
-    <br>
-    <h2 id="apresentação"><strong>Quem sou eu?</strong></h2>
-    <p style="color: red;">Tenho 26 anos, sou nascido e criado em Barbacena/MG, curso a faculdade de Economia na UFSJ e
-        iniciei meus estudos na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> e estou no caminho para ser
-        um DEV de sucesso.
-        <br>
-        <br>
     <h2 id="habilidades"><strong>Minhas Habilidades</strong></h2>
     <ul class="lista">
         <li>Sou comunicativo</li>
@@ -52,16 +31,21 @@
         <br>
         <br>
         <h3>Habilidade que mais me orgulho</h3>
-        <p>Sem dúvida a habilidade que mais me orgulho, é a capacidade me adaptar com facilidade a novos desafios.
-            Passei por muitas reviravoltas em minha vida pessoal e profissional que me deram a capacidade de superar e
-            me adptar a diversas situações.
+        <p>
+            Sem dúvida a habilidade que mais me orgulho, é a capacidade me adaptar com facilidade a novos desafios.
+            Passei por muitas reviravoltas em minha vida pessoal e profissional que me deram a capacidade de superar e me adptar a diversas situações.
         </p>
         <br>
         <br>
         <h2 id="hobbies"><strong>Hobbies</strong></h2>
-        <p>Tenho como meu principal hobby o Xadrez, tendo já participado de alguns campeonatos e sendo campeão em
-            algumas ocasiões, também adoro praticar atividades físicas como crossfit, corrida e musculação</p>
-    </ul>
+        <p>
+            Tenho como meu principal hobby o Xadrez, tendo já participado de alguns campeonatos e sendo campeão em algumas ocasiões, também adoro praticar atividades físicas como crossfit, corrida e musculação
+        </p>
+            <ul>
+                <li><a href="#apresentação">Quem sou eu?</a></li>
+                <li><a href="#habilidades">Minhas Habilidades</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
     </p>
 </body>
 
