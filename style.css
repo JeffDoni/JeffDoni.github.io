@@ -1,39 +1,78 @@
-h1 {
-    font-size: 35px;
-    text-align: center;
-}
-
-body {
-    background-color: rgb(180, 155, 155);
-    padding: 3%;
-    
-}
-
-.descrição {
-    font-family: fantasy;
-    color: red;
-    position: absolute;
-    top: 36%;
-    right: 10%;
-    left:20% ;
-    
-}
-
-.lista {
-    font-size: 20px;
-}
-
-
-#foto {
-    float: left;
-    height: 280px;
-    padding: 10px;
-    background-color: rgb(107, 82, 82);
-}
-.image-container {
-    height: 300px;
+.intro {
+    height: 110vh;
+    background: url(./foto\ de\ fundo.jpg);
+    background-size: cover;
     position: relative;
+    background-position: 10%;
+    top: 10%;
 }
-ul li:nth-child(odd) {
-    background-color: aqua;
+body {
+    background-color: black;
+    color: rgb(233, 220, 220);
+    font-weight: bold;
+}
+
+#identificação {
+    width: 50vh;
+    height: 50px;
+    padding: 20px;
+    position: absolute;
+    background-size: cover;
+    top: 200px;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+.sobre {
+    width: 50vh;
+    text-align: left;
+
+}
+.skills {
+    text-align: center;
+    margin: 80px;
+}
+ul {
+    list-style: none;
+
+}
+.hobbies {
+    width: 50vh;
+    text-align: left;
+    float: right;
+    top: 100px;
+    margin: 100px 0;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+} 
+
+nav ul {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.Estudar {
+    width: max-content;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid transparent;
+    text-align: center;
+    display: flex;
+    float: left;
+}
+.redes {
+    margin: 400px 0;
+
 }
