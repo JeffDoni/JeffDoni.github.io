@@ -3,8 +3,8 @@
     background: url(./foto\ de\ fundo.jpg);
     background-size: cover;
     position: relative;
-    background-position: 10%;
-    top: 10%;
+   
+    
 }
 body {
     background-color: black;
@@ -12,17 +12,21 @@ body {
     font-weight: bold;
 }
 
-#identificação {
+#identificacao {
     width: 50vh;
-    height: 50px;
     padding: 20px;
     position: absolute;
     background-size: cover;
-    top: 200px;
+    bottom: 50px;
     font-weight: bold;
-    color: black;
+    color: rgb(8, 6, 6);
     font-size: 40px;
+    background-color:#e7e5e591;
+    text-shadow: 2px 2px 1px white;
+    
 }
+
+
 .sobre {
     width: 50vh;
     text-align: left;
@@ -63,15 +67,22 @@ nav ul {
 }
 
 .Estudar {
-    width: max-content;
+    width: 120px;
     height: 50px;
     margin: auto;
     padding: 20px;
     border: 1px solid transparent;
-    text-align: center;
+    justify-content: center;
     display: flex;
     float: left;
+    flex-wrap: wrap;
+
 }
+
+ .Estudar img {
+    width: 50px;
+    height: 50px;
+ }
 .redes {
     margin: 400px 0;
 
