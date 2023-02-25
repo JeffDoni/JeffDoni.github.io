@@ -2,27 +2,13 @@ import React from 'react'
 import Tunes from '../img/tunes.gif'
 import Trivia from '../img/trivia.gif'
 import Shopping from '../img/shopping.gif'
-import { useRef } from 'react';
+
 import '../styles/components/projectsContainer.sass'
 
 
 const ProjectsContainer = () => {
 
-  const carouselRef = useRef(null);
-
-  // function handleScroll(direction) {
-  //   const carousel = carouselRef.current;
-  //   console.log('ok', carousel)
-  //   const scrollWidth = carousel.scrollWidth;
-  //   const viewWidth = carousel.offsetWidth;
-  //   const maxScroll = scrollWidth - viewWidth;
-
-  //   if (direction === 'left' && carousel.scrollLeft > 0) {
-  //     carousel.scrollLeft -= viewWidth;
-  //   } else if (direction === 'right' && carousel.scrollLeft < maxScroll) {
-  //     carousel.scrollLeft += viewWidth;
-  //   }
-  // }
+ 
 
 const project = [
   {link: 'https://tunes-omega.vercel.app/', name: 'Tunes', gif: Tunes },
@@ -46,14 +32,11 @@ const project = [
       </div>
     ))}
     </div>
-    {/* <div className="buttons">
-        <button onClick={() => handleScroll('left')}>Anterior</button>
-        <button onClick={() => handleScroll('right')}>Próximo</button>
-      </div>
+  
  
     <a href="https://github.com/JeffDoni?tab=repositories" className='btn'>
         Ver Projetos 
-    </a> */}
+    </a> 
    
    </section>
   )
