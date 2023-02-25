@@ -10,7 +10,7 @@ const ProjectsContainer = () => {
 
 const project = [
   {link: 'https://tunes-omega.vercel.app/', name: 'Tunes', gif: Tunes },
-  {link: 'trivia-rouge.vercel.app', name: 'Trivia', gif: Trivia },
+  {link: 'https://trivia-rouge.vercel.app/', name: 'Trivia', gif: Trivia },
   {link: 'https://shopping-cart-theta-two.vercel.app/', name: 'ShoppingCart', gif: Shopping },
   
  
@@ -25,8 +25,8 @@ const project = [
     {project.map((e) => (
       <div key={e.name} className='projects-container item'>
         <img src={e.gif} alt={e.name} className='photo'/>
-        <a href={e.link}>Acesse</a>
         <p>{e.name}</p>
+        <a href={e.link}>Acesse</a>
       </div>
     ))}
     </div>
