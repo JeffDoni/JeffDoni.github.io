@@ -1,0 +1,24 @@
+@use '../variables'
+@use '../mixins'
+
+.photo
+        max-width: 40%
+        max-height: 20%
+        border-radius: variables.$container-border-radius
+        position: static
+        top: -2rem
+
+.projects-container
+    @include mixins.center
+    flex-direction: column
+
+.carousel
+  display: flex
+  overflow-x: auto
+
+  .item
+    flex: 0 0 200px
+    height: 200px
+    margin-right: 20px
+    background-color: #ccc
+    text-align: center
