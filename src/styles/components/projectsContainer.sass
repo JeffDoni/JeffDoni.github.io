@@ -8,6 +8,14 @@
         position: static
         top: -2rem
 
+.project
+  gap: 10%
+
+.btnproject 
+  align-self: center
+  margin-top: 5%
+
+
 .projects-container
     @include mixins.center
     flex-direction: column
@@ -15,10 +23,21 @@
 .carousel
   display: flex
   overflow-x: auto
+  justify-content: center
 
   .item
     flex: 0 0 200px
-    height: 200px
+    height: 150px
     margin-right: 20px
-    background-color: #ccc
     text-align: center
+
+    img
+      max-width: 70%
+      min-height: 100px
+
+@media screen and (max-width: variables.$break-small) 
+  
+  .carousel
+    display: flex
+    overflow-x: auto
+    justify-content: start

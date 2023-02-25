@@ -16,7 +16,7 @@ const project = [
  
 ];
   return (
-   <section>
+   <section className="project">
     <h2>Projetos</h2>
     <p>
     Desenvolvi alguns projetos durante minha trajetória no desenvolvimento web, acesse e conheça cada uma das aplicações na galeria abaixo.
@@ -30,10 +30,13 @@ const project = [
       </div>
     ))}
     </div>
+
+    <div className='btnproject'>
  
     <a href="https://github.com/JeffDoni?tab=repositories" className='btn'>
-        Ver Projetos 
+        Ver mais Projetos 
     </a> 
+    </div>
    
    </section>
   )
