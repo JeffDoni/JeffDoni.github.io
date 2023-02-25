@@ -1,7 +1,8 @@
 import React from 'react'
 import Tunes from '../img/tunes.gif'
 import Trivia from '../img/trivia.gif'
-import Shopping from '../img/shopping.gif'
+import Movies from '../img/movies.gif'
+import Food from '../img/lanchonete.gif'
 import '../styles/components/projectsContainer.sass'
 
 
@@ -11,7 +12,8 @@ const ProjectsContainer = () => {
 const project = [
   {link: 'https://tunes-omega.vercel.app/', name: 'Tunes', gif: Tunes },
   {link: 'https://trivia-rouge.vercel.app/', name: 'Trivia', gif: Trivia },
-  {link: 'https://shopping-cart-theta-two.vercel.app/', name: 'ShoppingCart', gif: Shopping },
+  {link: 'https://dev-movies.vercel.app/', name: 'Movies', gif: Movies },
+  {link: 'https://lanchonete-mata-fome.vercel.app/', name: 'Lanchonete', gif: Food },
   
  
 ];
