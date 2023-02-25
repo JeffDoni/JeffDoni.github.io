@@ -4,10 +4,15 @@ import{
     DiHtml5,
     DiCss3,
     DiJsBadge,
-    DiNodejsSmall,
-    DiMysql,
     DiReact,
+    DiBootstrap
 } from 'react-icons/di'
+
+import{
+    SiSass,
+    SiRedux,
+    SiTailwindcss
+} from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
@@ -16,6 +21,11 @@ const technologies = [
     {id: 'css', name: 'CSS3', icon: <DiCss3/>},
     {id: 'js', name: 'JavaScript', icon: <DiJsBadge/>},
     {id: 'react', name: 'React', icon: <DiReact/>},
+    {id: 'bootstrap', name: 'Bootstrap', icon: <DiBootstrap/>},
+    {id: 'Sass', name: 'Sass', icon: <SiSass/>},
+    {id: 'Redux', name: 'SiRedux', icon: <SiRedux/>},
+    {id: 'Tailwind', name: 'Tailwind', icon: <SiTailwindcss/>}
+
 ];
 
 const TechnologiesContainer = () => {
