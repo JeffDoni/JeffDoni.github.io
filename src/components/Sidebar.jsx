@@ -9,7 +9,7 @@ import SocialNetworks from './SocialNetworks';
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Jefferson Donizete" />
+      <img src={Avatar} alt="Jefferson Donizete" className='profile'/>
       <p className='title'>Desenvolvedor Web</p>
       <SocialNetworks/>
       <InformationContainer/>

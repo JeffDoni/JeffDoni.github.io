@@ -23,7 +23,7 @@ const technologies = [
     {id: 'react', name: 'React', icon: <DiReact/>},
     {id: 'bootstrap', name: 'Bootstrap', icon: <DiBootstrap/>},
     {id: 'Sass', name: 'Sass', icon: <SiSass/>},
-    {id: 'Redux', name: 'SiRedux', icon: <SiRedux/>},
+    {id: 'Redux', name: 'Redux', icon: <SiRedux/>},
     {id: 'Tailwind', name: 'Tailwind', icon: <SiTailwindcss/>}
 
 ];
