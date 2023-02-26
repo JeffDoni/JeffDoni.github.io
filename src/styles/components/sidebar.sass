@@ -10,7 +10,9 @@
     flex-direction: column
     text-align: center
     position: relative
-    padding: 3rem 0
+    padding: 5rem 0
+    justify-content: start
+
 
   
   
@@ -20,22 +22,20 @@
     max-width: 70%
     max-height: 20%
     border-radius: variables.$container-border-radius
-    position: absolute
-    top: -5%
 
 .title
     color: variables.$text-color-secondary
     background-color: variables.$bg-color-secondary
     border-radius: variables.$card-border-radius
-    margin-top: 12rem
     padding: .8rem 1.2rem
+
 
 .btn
     @include mixins.btn
 
 @media screen and (max-width: variables.$break-small) 
     #sidebar
-        min-width: 150%
+        min-width: 135%
 
     
 .title
