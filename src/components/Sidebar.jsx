@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../img/eu.jpeg';
+import Avatar from '../img/foto.jpg';
 import InformationContainer from './InformationContainer';
 
 import '../styles/components/sidebar.sass';
